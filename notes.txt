@@ -4,3 +4,30 @@ Two ways to clone a protected repo:
     // Setup ssh key in your github account
     - Setting up ssh key in our account
     - using private key for any git operations
+2. ssh-add ~/.ssh/id_rsa
+    
+1. master
+2. staging
+3. QA
+4. develop
+
+1. Whenever you clone you come on master branch by default
+2. git fetch --all
+3. checkout to develop branch( git checkout develop)
+
+user-onboard
+1. branch off of the develop branch
+git checkout -b ROLL-122-user-onboard
+
+add  commit push
+
+git commit -m "feat(ROLL-122-user-onboard)-user-onboard-UI"
+git commit -m "refactor(ROLL-122-user-onboard)-dead-code-removal"
+
+raising a PR from ROLL-122-user-onboard to develop
+
+git checkout develop
+
+git checkout -b "ROLL-123-google-login"
+
+git rebase origin/develop
