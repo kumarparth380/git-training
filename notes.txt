@@ -4,3 +4,22 @@ Two ways to clone a protected repo:
     // Setup ssh key in your github account
     - Setting up ssh key in our account
     - using private key for any git operations
+
+- main (prod)
+- staging , qa
+- develop 
+
+0. git pull origin develop
+1. git checkout new-feature
+
+c1,c3,....cn - feature completed
+
+1. git checkout develop
+2. git pull origin develop
+3. git checkout new-feature
+4. git merge develop
+
+create PR without any conflicts
+
+
+HEAD is the current branch or commit
