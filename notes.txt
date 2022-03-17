@@ -17,17 +17,17 @@ Two ways to clone a protected repo:
 
 user-onboard
 1. branch off of the develop branch
-git checkout -b ROLL-122-user-onboard
+git checkout -b TEST-122-user-onboard
 
 add  commit push
 
-git commit -m "feat(ROLL-122-user-onboard)-user-onboard-UI"
-git commit -m "refactor(ROLL-122-user-onboard)-dead-code-removal"
+git commit -m "feat(TEST-122-user-onboard)-user-onboard-UI"
+git commit -m "refactor(TEST-122-user-onboard)-dead-code-removal"
 
-raising a PR from ROLL-122-user-onboard to develop
+raising a PR from TEST-122-user-onboard to develop
 
 git checkout develop
 
-git checkout -b "ROLL-123-google-login"
+git checkout -b "TEST-123-google-login"
 
 git rebase origin/develop
