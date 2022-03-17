@@ -12,7 +12,7 @@ Two ways to clone a protected repo:
 0. git pull origin develop
 1. git checkout new-feature
 
-c1,c3,....cn - feature completed
+c1,c3 - feature completed
 
 1. git checkout develop
 2. git pull origin develop
@@ -23,3 +23,6 @@ create PR without any conflicts
 
 
 HEAD is the current branch or commit
+
+Rebase changes all history
+Merge add one merge commit to the history
