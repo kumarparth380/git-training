@@ -21,6 +21,7 @@ git checkout -b TEST-122-user-onboard
 
 add  commit push
 
+
 git commit -m "feat(TEST-122-user-onboard)-user-onboard-UI"
 git commit -m "refactor(TEST-122-user-onboard)-dead-code-removal"
 
@@ -31,3 +32,12 @@ git checkout develop
 git checkout -b "TEST-123-google-login"
 
 git rebase origin/develop
+
+
+// got fromm cherrypick of master branch 4935a6c
+c1,c3 - feature completed
+
+HEAD is the current branch or commit
+
+Rebase changes all history
+Merge add one merge commit to the history
