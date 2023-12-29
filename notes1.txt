@@ -1,0 +1,18 @@
+git clone <url>
+
+git branch
+
+- master or main or prod
+- develop
+
+main
+
+feature : login flow
+
+git checkout -b "login-flow"
+
+git add .
+
+git commit -m "login flow"
+
+git push origin login-flow
