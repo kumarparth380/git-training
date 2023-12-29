@@ -4,6 +4,7 @@ Two ways to clone a protected repo:
     // Setup ssh key in your github account
     - Setting up ssh key in our account
     - using private key for any git operations
+
 2. ssh-add ~/.ssh/id_rsa
     
 1. master
