@@ -59,5 +59,3 @@ HEAD is the current branch or commit
 
 Rebase changes all history
 Merge add one merge commit to the history
-
-END
