@@ -5,6 +5,39 @@ Two ways to clone a protected repo:
     - Setting up ssh key in our account
     - using private key for any git operations
 
+2. ssh-add ~/.ssh/id_rsa
+    
+1. master
+2. staging
+3. QA
+4. develop
+
+1. Whenever you clone you come on master branch by default
+2. git fetch --all
+3. checkout to develop branch( git checkout develop)
+
+user-onboard
+1. branch off of the develop branch
+git checkout -b TEST-122-user-onboard
+
+add  commit push
+
+
+git commit -m "feat(TEST-122-user-onboard)-user-onboard-UI"
+git commit -m "refactor(TEST-122-user-onboard)-dead-code-removal"
+
+raising a PR from TEST-122-user-onboard to develop
+
+git checkout develop
+
+git checkout -b "TEST-123-google-login"
+
+git rebase origin/develop
+
+
+// got fromm cherrypick of master branch 4935a6c
+c1,c3 - feature completed
+
 - main (prod)
 - staging , qa
 - develop 
@@ -26,5 +59,3 @@ HEAD is the current branch or commit
 
 Rebase changes all history
 Merge add one merge commit to the history
-
-
